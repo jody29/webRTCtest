@@ -13,7 +13,7 @@
   padding: 0;
 }
 
-.header {
+header {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -27,13 +27,13 @@
   color: var(--main-light);
 }
 
-.main {
+main {
   overflow: hidden;
   height: 92vh;
   display: flex;
 }
 
-.main__left {
+main section:first-of-type {
   flex: 0.7;
   display: flex;
   flex-direction: column;
@@ -106,14 +106,14 @@ video {
   display: none;
 }
 
-.main__message_container {
+form {
   padding: 1rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.main__message_container > input {
+form > input {
   height: 50px;
   flex: 1;
   font-size: 1rem;
