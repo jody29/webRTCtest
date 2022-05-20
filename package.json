@@ -1,0 +1,36 @@
+{
+  "name": "webrtctest",
+  "version": "1.0.0",
+  "description": "creating a videochat with the webRTC and socket.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "npx nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jody29/webRTCtest.git"
+  },
+  "keywords": [
+    "webRTC",
+    "socketio",
+    "nodejs"
+  ],
+  "author": "Jody Lorist",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jody29/webRTCtest/issues"
+  },
+  "homepage": "https://github.com/jody29/webRTCtest#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "peer": "^0.5.3",
+    "socket.io": "^4.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
